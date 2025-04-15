@@ -1,5 +1,5 @@
 * {
-    cursor: url('Cursores/default.png'), auto;
+    cursor: url('default.png'), auto;
     overflow: hidden;
     user-select: none;
     text-align: center;
@@ -55,14 +55,14 @@ input {
     border: 8px double rgb(150, 0, 0);
 }
 input:hover {
-    cursor: url('Cursores/pointer.png'), auto;
+    cursor: url('pointer.png'), auto;
 }
 input:active {
     color: red;
     border: 8px double red;
 }
 input:disabled {
-    cursor: url('Cursores/default.png'), auto;
+    cursor: url('default.png'), auto;
     color: rgb(150, 0, 0);
     border: 8px solid black;
 }
