@@ -1,6 +1,6 @@
-const spin = new Audio('Sons/spin.wav');
-const fail = new Audio('Sons/fail.wav');
-const shot = new Audio('Sons/shot.wav');
+const spin = new Audio('spin.wav');
+const fail = new Audio('fail.wav');
+const shot = new Audio('shot.wav');
 
 var cartucho = 0;
 var balaVerdadeira = 0;
