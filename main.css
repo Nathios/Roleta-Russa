@@ -1,0 +1,77 @@
+* {
+    cursor: url('Cursores/default.png'), auto;
+    overflow: hidden;
+    user-select: none;
+    text-align: center;
+    background-color: black;
+    color: rgb(150, 0, 0);
+    font-size: 20pt;
+}
+
+h1 {
+    background: transparent;
+    font-size: 40pt;
+}
+
+div {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25vh;
+    height: 300px;
+    background-color: rgb(31, 31, 31);
+    width: 600px;
+}
+
+
+
+p {
+    font-size: 31pt;
+    height: 50px;
+    background-color: black;
+    margin: auto;
+    margin-top: 40px;
+    border-top: 8px double rgb(31, 31, 31);
+    border-bottom: 8px double rgb(31, 31, 31);
+}
+
+
+span {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border: 8px double rgb(31, 31, 31);
+}
+
+
+
+input {
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    outline: none;
+    border: 8px double rgb(150, 0, 0);
+}
+input:hover {
+    cursor: url('Cursores/pointer.png'), auto;
+}
+input:active {
+    color: red;
+    border: 8px double red;
+}
+input:disabled {
+    cursor: url('Cursores/default.png'), auto;
+    color: rgb(150, 0, 0);
+    border: 8px solid black;
+}
+
+
+footer {
+    background: transparent;
+    margin-top: 23vh;
+    line-height: 80px;
+    border-top: 8px double rgb(150, 0, 0);
+    font-style: italic;
+}
